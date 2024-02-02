@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TransitionTag/>
+  <MethodReturn/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TransitionTag from './components/TransitionTag.vue'
+import MethodReturn from './components/MethodReturn.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TransitionTag,
+    MethodReturn
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
