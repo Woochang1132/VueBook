@@ -3,6 +3,7 @@
   <MethodReturn/>
   <LinkValue/>
   <VForDirective/>
+  <VbindApp/>
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import TransitionTag from './components/TransitionTag.vue'
 import MethodReturn from './components/MethodReturn.vue'
 import LinkValue from './components/LinkValue.vue'
 import VForDirective from './components/VForDirective.vue'
+import VbindApp from './components/VbindApp.vue'
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     TransitionTag,
     MethodReturn,
     LinkValue,
-    VForDirective
+    VForDirective,
+    VbindApp
   }
 }
 </script>
