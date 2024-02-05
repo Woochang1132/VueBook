@@ -7,6 +7,7 @@
   <VModelComponent/>
   <SelectComponent/>
   <ConditionComponent/>
+  <ComputedProperty/>
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import VbindApp from './components/VbindApp.vue'
 import VModelComponent from './components/VModelComponent.vue'
 import SelectComponent from './components/SelectComponent.vue'
 import ConditionComponent from './components/ConditionComponent.vue'
+import ComputedProperty from './components/ComputedProperty.vue'
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     VbindApp,
     VModelComponent,
     SelectComponent,
-    ConditionComponent
+    ConditionComponent,
+    ComputedProperty
   }
 }
 </script>
