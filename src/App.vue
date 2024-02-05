@@ -6,6 +6,7 @@
   <VbindApp/>
   <VModelComponent/>
   <SelectComponent/>
+  <ConditionComponent/>
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import VForDirective from './components/VForDirective.vue'
 import VbindApp from './components/VbindApp.vue'
 import VModelComponent from './components/VModelComponent.vue'
 import SelectComponent from './components/SelectComponent.vue'
+import ConditionComponent from './components/ConditionComponent.vue'
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     VForDirective,
     VbindApp,
     VModelComponent,
-    SelectComponent
+    SelectComponent,
+    ConditionComponent
   }
 }
 </script>
