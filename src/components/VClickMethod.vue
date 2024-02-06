@@ -1,0 +1,23 @@
+<template>
+    <div>
+        금액 : <input type="text" v-model.number="amount" /> <br />
+        <button v-on:click="balance += parseInt(amount)">입금</button>
+        <button v-on:click="balance -= parseInt(amount)">인출</button>
+        <br>
+        <h3>계좌 잔고 : {{ balance }}</h3>
+    </div>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                amout : 0 , balance: 0
+            }
+        },
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
