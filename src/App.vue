@@ -13,7 +13,7 @@
   <div>
     <h2>관심있는 K-pop 가수는?</h2>
     <ul>
-      <CheckboxItem v-for="idol in idols" :key="idol.id" :name="idol.name" :checked="idol.checked"></CheckboxItem>
+      <CheckboxItem v-for="idol in idols" :key="idol.id" :idol="idol"></CheckboxItem>
     </ul>
   </div>
 </template>
